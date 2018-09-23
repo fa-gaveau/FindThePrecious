@@ -1,0 +1,346 @@
+*GENERAL*/
+
+@font-face{
+  font-family: "Party Business";
+  src: url('font/partybusiness.ttf'), format('truetype');
+}
+
+@font-face{
+  font-family: "anicb";
+  src: url('font/anicb.ttf');
+}
+
+@font-face{
+  font-family: "Tengwar Annatar";
+  src: url('font/tnganb.ttf'), format('truetype');
+
+}
+
+body{
+  font-family: "Party Business";
+}
+
+h2, h3{
+  font-family: "anicb";
+  font-weight: bold;
+}
+
+
+a{
+  padding-left: 1%;
+}
+
+section{
+  margin-bottom: 5%;
+}
+
+
+
+/*NAVBAR*/
+.navbar{
+  font-weight: bolder;
+  background-color: orange;
+}
+
+#mainNav a{
+  color: white !important;
+}
+
+.navbar > button{
+  background-color: white;
+}
+
+a:hover{
+  text-decoration:underline !important;
+}
+
+
+
+/*CAROUSEL*/
+.carousel{
+  margin-bottom: 2%;
+}
+
+/*FELLOWS*/
+
+
+.decoration{
+  font-family: "Tengwar Annatar";
+  color: orange;
+}
+
+/*NAV PILLS*/
+
+.nav-pills a{
+  background-color: white !important;
+  color: black;
+}
+
+.nav-pills .active{
+  color: orange !important;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.symbole{
+  display: none;
+}
+
+.nav-pills .symbole:active{
+  display: block;
+  color: orange !important;
+}
+
+
+
+/*FELLOWS title*/
+#small{
+  font-size: 0.60em;
+}
+
+
+/* fellows card */
+
+.contenu {
+  box-shadow: -2px 2px 10px grey;
+  margin-left: 5%;
+  background-color: black;
+}
+
+
+.contenu:hover {
+  box-shadow: -2px 2px 30px grey;
+}
+
+/* fellows pics */ 
+
+.picture {
+  max-width: 90%;
+  margin-left: 12%;
+  margin-top: 6%;
+}
+.container .picture {
+  width: 95%;
+  top: 2rem;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 2rem;
+  opacity: 0.65;
+}
+
+.contenu:hover .picture {
+  opacity: 1;
+}
+
+
+/* fellows reward */
+
+.reward {
+  position: absolute;
+  opacity: 0.8;
+  background-color: white;
+  color: black;
+  border-radius: 6px;
+  padding-bottom: 0.25rem;
+  text-align: center;
+  top: 15%;
+  width: 70%;
+  left: 15%;
+  
+}
+
+#dead {
+  position: absolute;
+  font-weight: bold;
+  color: orange;
+  padding-bottom: 0.25rem;
+  text-align: center;
+  font-size: 1.5em;
+  top: 15%;
+  left: 35%;
+}
+
+
+#through{
+  text-decoration: line-through orange;
+}
+
+.contenu:hover .reward {
+  opacity: 0;
+  transition: 0.5s ease-out;
+}
+
+.reward span {
+  color: orange;
+  font-weight: bold;
+}
+
+
+/*fellows name*/
+
+.fellows_name {
+  position: absolute;
+  width: 85%;
+  bottom: 43%;
+  font-size: 2em;
+  color: white;
+  transition: 0.4s ease-out;
+}
+
+.contenu:hover .fellows_name {
+ 
+  color: white;
+  width: 85%;
+  font-size: 1em;
+  text-align: center;
+  opacity: 1;
+  bottom: 12rem;
+  transform: translate(0, 6rem);
+}
+
+.contenu .fellows_name {
+  text-align: center;
+  opacity: 1;
+}
+
+
+/*fellows description*/
+
+.legend {
+  background-color: black;
+  color: white;
+  font-size: 0.90em; 
+  padding: 2%;
+}
+
+.legend span {
+  font-weight: 400;
+}
+
+@media screen and (max-width:991px){
+  .fellows_name{
+    width: 80%;
+    font-size: 1.5em;
+    bottom: 42%;
+  }
+}
+
+
+@media screen and (max-width:760px){
+  .reward{
+  padding-bottom: 0;
+  font-size: 1em;
+  text-align: center;
+  top: 15%;
+  width: 70%;
+  left: 16%;
+  }
+
+  .fellows_name{
+    font-size:2em;
+    width: 70%;
+    left: 10%;
+  }
+
+  .contenu:hover .fellows_name {
+  width: 75%;
+  font-size: 0.75em;
+}
+}
+
+
+/*REWARD*/
+#reward{
+  background-color: black;
+  padding: 10%;
+  color: white;
+}
+
+#reward .btn{
+background-color: white;
+color: orange;
+font-weight: bold;
+padding: 2%;
+}
+
+
+/*HUNTERS*/
+
+.name{
+  color: orange;
+  font-size: 1.75em;
+}
+
+
+a{
+  color: black;
+}
+
+
+
+/*ABOUT THE RING*/
+
+#ring{
+  background-color: black;
+}
+
+#ring h2{
+  color: white;
+  padding: 5%;
+}
+
+.card-header{
+  background-color: orange;
+  color: white;
+}
+td, th{
+  width: 50%;
+}
+
+.card{
+  margin-bottom: 2%;
+}
+
+/*My precious*/
+.roundedImage{
+    
+    border-radius: 50%;
+    width: 100px;
+}
+
+/*ARMY*/
+.tall{
+  width: 70%;
+}
+
+#rules{
+  margin-top:10%;
+  color: orange;
+}
+
+
+/*Contact*/
+
+#contact{
+  margin-bottom: 0;
+  background-color: #111;
+  padding: 5%;
+  color: white;
+}
+
+#map{
+  width: 80%;
+}
+
+/*FOOTER*/
+
+footer{
+  color: white;
+  background-color: orange;
+}
+footer a{
+  color: #fff;
+}
+footer a:hover{
+  color: white;
+}
